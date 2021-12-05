@@ -1,0 +1,38 @@
+{
+  "name": "demo-buoyserver",
+  "version": "1.0.0",
+  "description": "Deploy express js to vercel.",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hatuanem199801/express-vercel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hatuanem199801/express-vercel/issues"
+  },
+  "homepage": "https://github.com/hatuanem199801/express-vercel#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express-handlebars": "^5.3.5",
+    "express-session": "^1.17.2",
+    "http-proxy-middleware": "^2.0.0",
+    "mongoose": "^5.13.13",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.15",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
